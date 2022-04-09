@@ -2,6 +2,7 @@
   "name": "schild-frontend",
   "version": "0.1.0",
   "description": "A service to analyze Minecraft modifications and protect players",
+  "homepage": "https://throwstnt.github.io/schild-frontend",
   "author": {
     "name": "ThrowsTnT",
     "url": "https://github.com/TnTGamesTV"
