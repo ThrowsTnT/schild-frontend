@@ -5,10 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 
 import { ThemeModeContext } from './contexts';
-import { routes } from './config';
-import { Route as AppRoute } from './types';
 import { getAppTheme } from './styles/theme';
 import { DARK_MODE_THEME, LIGHT_MODE_THEME } from './utils/constants';
+import { Main } from './pages/Main';
 
 function App() {
   const [mode, setMode] = useState<typeof LIGHT_MODE_THEME | typeof DARK_MODE_THEME>(DARK_MODE_THEME);
@@ -23,9 +22,7 @@ function App() {
 
   const theme = useMemo(() => getAppTheme(mode), [mode]);
 
-  const addRoute = (route: AppRoute) => (
-    <Route key={route.key} path={route.path} component={route.component} exact />
-  );
+  const routeOffset = "/schild-frontend";
 
   return (
     <ThemeModeContext.Provider value={themeMode}>
@@ -34,9 +31,9 @@ function App() {
         <Router>
           <Switch>
             <Layout>
-              {routes.map((route: AppRoute) =>
-                route.subRoutes ? route.subRoutes.map((item: AppRoute) => addRoute(item)) : addRoute(route)
-              )}
+              <Route key="main" path={routeOffset + "/"} exact>
+                <Main />
+              </Route>
             </Layout>
           </Switch>
         </Router>
