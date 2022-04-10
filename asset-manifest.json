@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/schild-frontend/static/js/main.c827f072.chunk.js",
-    "main.js.map": "/schild-frontend/static/js/main.c827f072.chunk.js.map",
-    "runtime-main.js": "/schild-frontend/static/js/runtime-main.844a9e86.js",
-    "runtime-main.js.map": "/schild-frontend/static/js/runtime-main.844a9e86.js.map",
-    "static/js/2.9ed881d8.chunk.js": "/schild-frontend/static/js/2.9ed881d8.chunk.js",
-    "static/js/2.9ed881d8.chunk.js.map": "/schild-frontend/static/js/2.9ed881d8.chunk.js.map",
-    "static/js/3.a4baab3c.chunk.js": "/schild-frontend/static/js/3.a4baab3c.chunk.js",
-    "static/js/3.a4baab3c.chunk.js.map": "/schild-frontend/static/js/3.a4baab3c.chunk.js.map",
+    "main.js": "/schild-frontend/static/js/main.dae8fba1.chunk.js",
+    "main.js.map": "/schild-frontend/static/js/main.dae8fba1.chunk.js.map",
+    "runtime-main.js": "/schild-frontend/static/js/runtime-main.56a18603.js",
+    "runtime-main.js.map": "/schild-frontend/static/js/runtime-main.56a18603.js.map",
+    "static/js/2.e51d056b.chunk.js": "/schild-frontend/static/js/2.e51d056b.chunk.js",
+    "static/js/2.e51d056b.chunk.js.map": "/schild-frontend/static/js/2.e51d056b.chunk.js.map",
+    "static/js/3.fa7685c8.chunk.js": "/schild-frontend/static/js/3.fa7685c8.chunk.js",
+    "static/js/3.fa7685c8.chunk.js.map": "/schild-frontend/static/js/3.fa7685c8.chunk.js.map",
     "index.html": "/schild-frontend/index.html",
-    "static/js/2.9ed881d8.chunk.js.LICENSE.txt": "/schild-frontend/static/js/2.9ed881d8.chunk.js.LICENSE.txt"
+    "static/js/2.e51d056b.chunk.js.LICENSE.txt": "/schild-frontend/static/js/2.e51d056b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.844a9e86.js",
-    "static/js/2.9ed881d8.chunk.js",
-    "static/js/main.c827f072.chunk.js"
+    "static/js/runtime-main.56a18603.js",
+    "static/js/2.e51d056b.chunk.js",
+    "static/js/main.dae8fba1.chunk.js"
   ]
 }
