@@ -10,9 +10,7 @@ export const Layout: FC = ({ children }) => {
   return (
     <LayoutWrapper>
       <ContentWrapper>
-        <Box component="header">
-          <Header />
-        </Box>
+        <Header />
         <Box component="main">
           {children}
         </Box>
@@ -30,5 +28,6 @@ const LayoutWrapper = styled('div')`
 
 const ContentWrapper = styled('div')`
   display: flex;
+  flex-direction: column;
   min-height: calc(100vh - ${FOOTER_HEIGHT}px);
 `;

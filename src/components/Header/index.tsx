@@ -16,7 +16,7 @@ export const Header = () => {
 
   return (
     <>
-      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+      <AppBar position="relative">
         <Toolbar disableGutters variant="dense">
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>
             <AppTitle />

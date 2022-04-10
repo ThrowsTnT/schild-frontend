@@ -1,20 +1,25 @@
 import { useContext } from 'react';
 import { useTheme } from '@mui/material/styles';
-import { Flare, NightsStay } from '@mui/icons-material';
+import { DarkMode, Flare, LightMode, NightsStay } from '@mui/icons-material';
 
 import { ActionItem } from '../../Actions/ActionItem';
 
 import { ThemeModeContext } from '../../../contexts';
-import { LIGHT_MODE_THEME } from '../../../utils/constants';
+import { DARK_MODE_THEME, LIGHT_MODE_THEME } from '../../../utils/constants';
 
 export const ThemeSwitcher = ({ disableTooltip = false }: { disableTooltip?: boolean }) => {
   const theme = useTheme();
   const { toggleThemeMode } = useContext(ThemeModeContext);
 
+  const isDarkMode = theme.palette.mode === DARK_MODE_THEME;
+
+  const icon = isDarkMode ? DarkMode : LightMode;
+  const title = isDarkMode ? "Disable dark mode" : "Enable dark mode";
+
   return (
     <ActionItem
-      title="Toggle Theme"
-      icon={theme.palette.mode === LIGHT_MODE_THEME ? Flare : NightsStay}
+      title={title}
+      icon={icon}
       onClick={toggleThemeMode}
       disableTooltip={disableTooltip}
     />
