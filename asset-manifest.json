@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/schild-frontend/static/js/main.dae8fba1.chunk.js",
-    "main.js.map": "/schild-frontend/static/js/main.dae8fba1.chunk.js.map",
+    "main.js": "/schild-frontend/static/js/main.0389d8ad.chunk.js",
+    "main.js.map": "/schild-frontend/static/js/main.0389d8ad.chunk.js.map",
     "runtime-main.js": "/schild-frontend/static/js/runtime-main.56a18603.js",
     "runtime-main.js.map": "/schild-frontend/static/js/runtime-main.56a18603.js.map",
     "static/js/2.e51d056b.chunk.js": "/schild-frontend/static/js/2.e51d056b.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.56a18603.js",
     "static/js/2.e51d056b.chunk.js",
-    "static/js/main.dae8fba1.chunk.js"
+    "static/js/main.0389d8ad.chunk.js"
   ]
 }
